@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: product-image-audit
+    env: docker
+    plan: starter
+    autoDeploy: true
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
